@@ -1,0 +1,514 @@
+
+
+
+@media screen and (max-width:1800px) { /* Для цветных экранов */
+    .header{
+       height: 70vh;
+    }
+    .modal-img img{
+        max-width: 1700px;
+    }
+}
+@media screen and (min-width:1900px) { /* Для цветных экранов */
+    .header{
+       height: 80vh;
+    }
+    
+    .modal-img img{
+        max-width: 1800px;
+    }
+}
+@media screen and (max-width:1700px) { /* Для цветных экранов */
+    .header{
+       height: 68vh;
+    }
+    .modal-img img{
+        max-width: 1600px;
+    }
+}
+@media screen and (max-width:1600px) { /* Для цветных экранов */
+    .header{
+       height: 60vh;
+    }
+    .modal-img img{
+        max-width: 1500px;
+    }
+}
+@media screen and (max-width:1400px) { /* Для цветных экранов */
+    .social-network-point{
+        margin-left: 20%;
+    }
+    .porfolio-block-image{
+        grid-template-columns:215px 215px 215px 215px;
+        grid-template-rows:230px 230px 330px 210px 210px 210px;
+    }
+    .modal-img img{
+        max-width: 1300px;
+    }
+    .data{
+        padding: 5px 10px 5px 10px;  
+    }
+    .img_news{
+        width: 100%;
+        height: 50%;
+    }
+}
+@media screen and (max-width:1240px) { /* Для цветных экранов */
+    .porfolio-block-image{
+        grid-template-columns:200px 200px 200px 200px;
+        grid-template-rows:215px 215px 315px 200px 200px 200px;
+    }
+    .modal-img img{
+        max-width: 1100px;
+    }
+    .news{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width:1000px) { /* Для цветных экранов */
+    .header{
+       font-size: 0.7em;
+       background-size:120%;
+       height: 42vh;
+    }
+    .modal-img img{
+        max-width: 900px;
+    }
+    .img_news{
+        width: 100%;
+        height: 60%;
+    }
+    .news{
+        font-size: 0.9em;
+    }
+    
+}
+@media screen and (max-width:900px) { /* Для цветных экранов */
+    .header{
+       height: 40vh;
+    }
+    .porfolio-block-image{
+        grid-template-columns:150px 150px 150px 150px;
+        grid-template-rows:170px 170px 270px 150px 150px 150px;
+    }
+    .modal-img img{
+        max-width: 800px;
+    }
+   
+}
+@media screen and (max-width:830px) { /* Для цветных экранов */
+    .header{
+       height: 33vh;
+    }
+    .social-network-point{
+        margin-left: 25%;
+    }
+    .modal-img img{
+        max-width: 700px;
+    }
+    .quote{
+        font-size: 0.8em;
+    }
+    .quote::after{
+        margin-left: 3%;
+    }
+    .img_news{
+        width: 100%;
+        height: 50%;
+    }
+    .contact_block{
+        height: 350px;
+    }
+    
+}
+@media screen and (width:1024px) and (height:1366px){
+    .header{
+        height: 33vh;
+     }
+}
+@media screen and (width:768px) and (height:1024px){
+    .header{
+        background-size:145%;
+    }
+}
+@media screen and (max-width:730px) { /* Для цветных экранов */
+    .porfolio-block-image{
+        width: fit-content;
+        display: grid;
+        margin: 0 auto;
+        margin-top: 50px;
+        grid-template-columns:160px 160px 160px;
+        grid-template-rows:160px 160px 160px 160px 160px 160px 160px 160px;
+        grid-template-areas:    "post-1 post-1 post-5" 
+                                "post-2 post-2 post-6"
+                                "post-3 post-3 post-7"
+                                "post-4 post-4 post-8"
+                                "post-13 post-13 post-14"
+                                "post-18 post-18 post-10"
+                                "post-11 post-12 post-9"
+                                "post-15 post-17 post-16"; 
+                                                      
+    }
+    .img-foote-point{
+        margin-left: 3em;
+    }
+    .modal-img img{
+        max-width: 600px;
+    }
+}
+@media screen and (max-width:679px) { /* Для цветных экранов */
+    .header{
+       height: 28vh;
+       font-size: 0.5em;
+    }
+    .news{
+        font-size: 0.8em;
+    }
+    .img_news{
+        width: 100%;
+        height: 40%;
+    }
+    .posts_blog{
+        margin-top: 2em;
+    }
+    .post_blog{
+        margin-top: 10px;
+    }
+    .news_and_blog{
+        flex-direction: column;    
+    }
+    .news{
+        width: 100%;
+    }
+    .blog{
+        width: 100%;
+    }
+    .bio_block_content{
+        flex-direction: column;
+    }
+    .right_bioblock{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .left_biovlock{
+        width: 100%;
+    }
+    .social-networkbio{
+        margin-left: -20%;
+    }
+    .avatar{
+        width: 40%;
+    }
+    .right_bioblock{
+        font-size: 1.2em;
+    }
+    .mail{
+        padding: 0 50px 0 50px;
+    }
+}
+@media screen and (max-width:580px) { /* Для цветных экранов */
+    .header{
+       height: 24vh;
+       font-size: 0.5em;
+    }
+    .header-block-text{
+        margin-left: 17%;
+    }
+  
+    .logo{
+        transform: translate(50%);
+        -webkit-transform: translate(50%);
+        -moz-transform: translate(50%);
+        -ms-transform: translate(50%);
+        -o-transform: translate(50%);
+    }
+    .nav-list{
+        transform: translate(-50%,100%);
+        -webkit-transform: translate(-50%,100%);
+        -moz-transform: translate(-50%,100%);
+        -ms-transform: translate(-50%,100%);
+        -o-transform: translate(-50%,100%);
+        width: 530%;
+        background-color:#252222;
+        justify-content: start;
+        align-items: center;
+        height: 5vh;
+    
+}
+ 
+    
+    .social-network-point.in a::before{
+        width: 2em;
+        height: 2em;
+        left: 30px;
+        top: -2em;
+    }
+    .social-network-point.f a::before{
+        width: 2em;
+        height: 2em;
+        left: -6px;
+        top: 0.5em;
+    }
+    .social-network-point.dp a::before{
+        width: 2em;
+        height: 2em;
+        left: 0px;
+        top: -2em;
+    }
+    .social-network-point.tw a::before{
+        width: 2em;
+        height: 2em;
+        left: -36px;
+        top: 0.5em;
+    }
+    
+    .porfolio-block-image{
+        grid-template-columns:100px 100px 100px;
+        grid-template-rows:100px 100px 100px 100px 100px 100px 100px 100px;
+        margin: 0;
+        margin-left: 23%;
+    }
+    .post-block{
+        background-size:cover;
+        background-position-x:-300px
+    }
+    .modal-img img{
+        max-width: 500px;
+    }
+    .avatar{
+        margin-top: 5px;
+    }
+    .bio_block{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .contact_block{
+        font-size: 0.8em;
+        height: 300px;
+    }
+    
+}
+@media screen and (max-width:500px) { /* Для цветных экранов */
+    .header{
+       height: 20vh;
+       font-size: 0.3em;
+    }
+    .header-block-text{
+        margin-left: 17%;
+        margin-right: 0;
+    }
+    .porfolio-block-image{
+        margin-left: 19%;
+    }
+    .nav-list{
+        transform: translate(80%);
+        -webkit-transform: translate(80%);
+        -moz-transform: translate(80%);
+        -ms-transform: translate(80%);
+        -o-transform: translate(80%);
+    }
+    .social-network-point{
+        margin-left: 40%;
+        left: -35%;
+    }
+    .social-network-point.in a::before{
+        left: 70px;
+        top: -2em;
+    }
+    .social-network-point.f a::before{
+        left: 22px;
+        top: 0.5em;
+    }
+    .social-network-point.dp a::before{
+        left: 20px;
+        top: -2em;
+    }
+    .social-network-point.tw a::before{
+        left: -30px;
+        top: 0.5em;
+    }
+    .nav-list{
+        transform: translate(-50%,120%);
+        -webkit-transform: translate(-50%,120%);
+        -moz-transform: translate(-50%,120%);
+        -ms-transform: translate(-50%,120%);
+        -o-transform: translate(-50%,120%);
+        width: 530%;
+        background-color:#252222;
+        justify-content: start;
+        align-items: center;
+        height: 5vh;
+    }
+    .modal-img img{
+        max-width: 400px;
+    }
+    .quote{
+        font-size: 0.5em;
+    }
+    .img-foote-point.in a::before{
+        width: 0.7em;
+        height: 0.7em;
+    }
+    .img-foote-point.img a::before{
+        width: 0.7em;
+        height: 0.7em;
+    }
+    .img-foote-point.li a::before{
+        width: 0.7em;
+        height: 0.7em;
+    }
+    .img-foote-point.like a::before,
+    .img-foote-point.like.active a::before{
+        width: 0.7em;
+        height: 0.7em;
+    }
+    .img-foote-point.zoom a::before{
+        width: 0.7em;
+        height: 0.7em;
+    }
+    .img-foote-point.in a::before{
+        width: 0.7em;
+        height: 0.7em;
+    }
+    .img-foote-point{
+        margin-left: 2.4em;
+    }
+    .right_bioblock{
+        font-size: 1em;
+    }
+    .right_bioblock h3{
+        margin-bottom: 10px;
+    }
+    .contact_block{
+        font-size: 0.7em;
+        height: 250px;
+    }
+}
+@media screen and (max-width:420px) { /* Для цветных экранов */
+    .header{
+        font-size: 0.5em;
+        background-size:180%;
+        height: 25vh;
+    }
+    .header-block-text{
+        margin-left: 17%;
+    }
+    .social-network-point.in a::before{
+        width: 1.5em;
+        height: 1.5em;
+        left: 50px;
+        top: -2em;
+    }
+    .social-network-point.f a::before{
+        width: 1.5em;
+        height: 1.5em;
+        left: 12px;
+        top: 0.5em;
+    }
+    .social-network-point.dp a::before{
+        width: 1.5em;
+        height: 1.5em;
+        left: 10px;
+        top: -2em;
+    }
+    .social-network-point.tw a::before{
+        width: 1.5em;
+        height: 1.5em;
+        left: -28px;
+        top: 0.5em;
+    }
+    .logo{
+        transform: translate(10%);
+        -webkit-transform: translate(10%);
+        -moz-transform: translate(10%);
+        -ms-transform: translate(10%);
+        -o-transform: translate(10%);
+    }
+    .porfolio-block-image{
+        margin-left: 12%;
+    }
+    .porfolio-block-image{
+        grid-template-columns:80px 80px 80px;
+        grid-template-rows:80px 80px 80px 80px 80px 80px 80px 80px;
+        margin: 0;
+        margin-left: 20%;
+    }
+    .modal-img img{
+        max-width: 370px;
+    }
+    .contact_block{
+        font-size: 0.5em;
+        height: 200px;
+    }
+}
+@media screen and (max-width:380px) { /* Для цветных экранов */
+    .header{
+        font-size: 0.3em;
+        background-size:180%;
+        height: 25vh;
+    }
+    .modal-img img{
+        max-width: 350px;
+    }
+}
+
+
+@media screen and (max-width:320px) { /* Для цветных экранов */
+    .header{
+        font-size: 0.35em;
+        background-size:180%;
+        height: 25vh;
+    }
+    .header-block-text{
+        margin-left: 17%;
+    }
+    .social-network-point.in a::before{
+        left: 40px;
+        top: -2em;
+    }
+    .social-network-point.f a::before{
+        left: 12px;
+        top: 0.5em;
+    }
+    .social-network-point.dp a::before{
+        left: 10px;
+        top: -2em;
+    }
+    .social-network-point.tw a::before{
+        left: -16px;
+        top: 0.5em;
+    }
+    .logo{
+        transform: translate(10%);
+        -webkit-transform: translate(10%);
+        -moz-transform: translate(10%);
+        -ms-transform: translate(10%);
+        -o-transform: translate(10%);
+    }
+    .modal-img img{
+        max-width: 300px;
+    }
+    
+}
+@media screen and (max-width:1000px) { /* Для цветных экранов */
+    .conteiner{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1600px) { /* Для цветных экранов */
+    body{
+        font-size: 13px;   
+    }
+}
+
+@media screen and (min-width:2000px) { /* Для цветных экранов */
+    .header{
+        height: 40vh;
+        background-size:120%;
+    }
+    body{
+        font-size: 20px;
+    }
+}
